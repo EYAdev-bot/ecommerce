@@ -1,0 +1,53 @@
+
+.img {
+    display: none;
+}
+.section{
+    background-image: url('../image/Rectangle 36.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+    @media screen and (max-width:750px){
+        body{
+            
+              display: grid;
+              place-items: center;
+
+        }
+        
+        #hed1{
+            display: none;
+        }
+        #hed2{
+            display: none;
+        }
+        #sectS{
+            display: none;
+        }
+        #sect{
+            width: 95%;
+        }
+        #sect h2 {
+            display: inline;
+        }
+        #sect3{
+            width: 95%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            display: grid;
+        }
+      #div1{
+        grid-column: 1;
+        grid-row: 2;
+        flex-direction: row;
+        width: 100%;
+      }
+      #div1 img{
+        width: 200px;
+      }
+      #im4{display: none;}
+    }
+    
